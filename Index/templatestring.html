@@ -1,0 +1,30 @@
+<script>
+    var name="Rahul";
+    var surn="Gupta.";
+    console.log(name + "."  + surn);
+    console.log("Rahul" + "." + "Gupta");
+
+    var a=3;
+    var b=9;
+    console.log('a and b sum :' + (a+b) + "\n" + 'and mult is :' + (a*b));
+    // ES-6
+    console.log(`Rahul.Gupta`);
+    console.log(`My name is ${name} ${surn}`);
+    console.log(`a and b sum : ${a+b} 
+and mult is: ${a*b}`);
+
+// ES-6 Methods
+// case sensitive
+
+console.log(`${name} ${surn}`.startsWith('r'));
+console.log(`${name} ${surn}`.startsWith('R'));
+console.log(`${name}${surn}`.endsWith('.'));
+console.log(`${name} ${surn}`.includes('g'));
+console.log(`${name}${surn}`.includes(' .'));
+console.log(`${name} ${surn}`.repeat(10));
+console.log(`${name} ${surn}`.repeat(10));
+
+const rname= `${name}`;
+
+console.log(rname.startsWith('R'));
+</script>
